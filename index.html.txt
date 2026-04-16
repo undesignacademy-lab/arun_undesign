@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arun Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Arun <span>Undesign</span></div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Resume</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Arun Kumar Sharma</span></h1>
+    <p>UI/UX Designer & Developer | Graphic Design Expert</p>
+    <p class="desc">
+      I specialize in web design, app design & digital marketing.
+      Creating modern and clean designs for your brand.
+    </p>
+    <div class="buttons">
+      <button class="primary">My Work</button>
+      <button class="secondary">Download CV</button>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="profile.png" alt="profile">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>Who is Arun Sharma?</h2>
+  <p>
+    I am a passionate designer with experience in creating modern UI/UX.
+  </p>
+
+  <div class="stats">
+    <div><h3>20+</h3><p>Projects</p></div>
+    <div><h3>10+</h3><p>Happy Clients</p></div>
+    <div><h3>3+</h3><p>Years Experience</p></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>My Services</h2>
+  <div class="cards">
+    <div class="card">Web Design & Development</div>
+    <div class="card">UI/UX & Graphic Design</div>
+    <div class="card">Meta Ads & Wordpress</div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work">
+  <h2>My Work</h2>
+  <div class="grid">
+    <div class="work-card">Project 1</div>
+    <div class="work-card">Project 2</div>
+    <div class="work-card">Project 3</div>
+    <div class="work-card">Project 4</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Get In Touch</h2>
+  <div class="contact-box">
+    <p>📞 +91 9876543210</p>
+    <p>📧 example@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Arun Portfolio</p>
+</footer>
+
+</body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #000;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #ff0057;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text span {
+  color: #ff0057;
+}
+
+.hero-text .desc {
+  margin: 20px 0;
+  color: #bbb;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #ff0057;
+  color: #fff;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* IMAGE */
+.hero-img img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #ff0057;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.stats div {
+  margin: 0 20px;
+}
+
+/* SERVICES */
+.services {
+  padding: 80px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* WORK */
+.work {
+  padding: 80px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.work-card {
+  background: #111;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 80px;
+}
+
+.contact-box {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
